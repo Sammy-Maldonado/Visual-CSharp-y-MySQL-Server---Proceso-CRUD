@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet_Datos" targetNamespace="http://tempuri.org/DataSet_Datos.xsd" xmlns:mstns="http://tempuri.org/DataSet_Datos.xsd" xmlns="http://tempuri.org/DataSet_Datos.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet_Datos" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_UserDSName="DataSet_Datos" msprop:Generator_DataSetName="DataSet_Datos">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tb_articulos" msprop:Generator_RowEvHandlerName="tb_articulosRowChangeEventHandler" msprop:Generator_RowDeletedName="tb_articulosRowDeleted" msprop:Generator_RowDeletingName="tb_articulosRowDeleting" msprop:Generator_RowEvArgName="tb_articulosRowChangeEvent" msprop:Generator_TablePropName="tb_articulos" msprop:Generator_RowChangedName="tb_articulosRowChanged" msprop:Generator_RowChangingName="tb_articulosRowChanging" msprop:Generator_TableClassName="tb_articulosDataTable" msprop:Generator_RowClassName="tb_articulosRow" msprop:Generator_TableVarName="tabletb_articulos" msprop:Generator_UserTableName="tb_articulos">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="codigo_ar" msprop:Generator_ColumnPropNameInRow="codigo_ar" msprop:Generator_ColumnPropNameInTable="codigo_arColumn" msprop:Generator_ColumnVarNameInTable="columncodigo_ar" msprop:Generator_UserColumnName="codigo_ar" type="xs:int" minOccurs="0" />
+              <xs:element name="descripcion_ar" msprop:Generator_ColumnPropNameInRow="descripcion_ar" msprop:Generator_ColumnPropNameInTable="descripcion_arColumn" msprop:Generator_ColumnVarNameInTable="columndescripcion_ar" msprop:Generator_UserColumnName="descripcion_ar" type="xs:string" minOccurs="0" />
+              <xs:element name="marca_ar" msprop:Generator_ColumnPropNameInRow="marca_ar" msprop:Generator_ColumnPropNameInTable="marca_arColumn" msprop:Generator_ColumnVarNameInTable="columnmarca_ar" msprop:Generator_UserColumnName="marca_ar" type="xs:string" minOccurs="0" />
+              <xs:element name="descripcion_um" msprop:Generator_ColumnPropNameInRow="descripcion_um" msprop:Generator_ColumnPropNameInTable="descripcion_umColumn" msprop:Generator_ColumnVarNameInTable="columndescripcion_um" msprop:Generator_UserColumnName="descripcion_um" type="xs:string" minOccurs="0" />
+              <xs:element name="descripcion_ca" msprop:Generator_ColumnPropNameInRow="descripcion_ca" msprop:Generator_ColumnPropNameInTable="descripcion_caColumn" msprop:Generator_ColumnVarNameInTable="columndescripcion_ca" msprop:Generator_UserColumnName="descripcion_ca" type="xs:string" minOccurs="0" />
+              <xs:element name="stock_actual" msprop:Generator_ColumnPropNameInRow="stock_actual" msprop:Generator_ColumnPropNameInTable="stock_actualColumn" msprop:Generator_ColumnVarNameInTable="columnstock_actual" msprop:Generator_UserColumnName="stock_actual" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
